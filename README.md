@@ -1,2 +1,2 @@
-# AlbinaZakirova1804.github.o
+# AlbinaZakirova1804.github.io
 ResumeProject2
