@@ -58,15 +58,16 @@
     justify-content: center;
     max-height: 50%;
     min-height: 50%;
+    
   }
   /*-----------------------------------*/
   /*-----flex item LEFT container------*/
   #left-container {
+    flex: 0 0 40%;
     border: 3px;
     border-style: none;
     background: #FFD600;
-    min-width: 15%;
-    max-width: 15%;
+    flex-basis: 15%;
     padding: 0px;
     font-size: 12px;
     word-wrap: break-word; /*keeps entire text inside the container when we change the size*/
@@ -120,7 +121,7 @@
   }
   /*---------------------------------------*/
   /*----Flex item RIGHT container----------*/
-  .flex_container #right-container {
+   #right-container {
     border: 3px;
     border-style: none;
     color: black;
@@ -228,8 +229,9 @@
   @media only screen and (max-width: 768px) {
     display: flex;
     flex-direction: collumn;
-    .flex-item{
-    width: 80%;
+  
+    #left-container {
+      flex-basis:100%;
     }
   }
   
