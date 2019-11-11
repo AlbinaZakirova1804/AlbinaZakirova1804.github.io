@@ -1,0 +1,282 @@
+@charset "UTF-8";
+/*-------------------------sass for header.html------------------------------*/
+/*------------------variables---------------*/
+/*--------------variables end--------------*/
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  overflow: hidden;
+  border-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: 20px 0;
+}
+nav a {
+  color: #FFD600;
+  display: block;
+  float: left;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+nav a:hover {
+  color: #2F4F4F;
+  text-decoration: underline;
+}
+
+/*-------------------------------Main Style------------------------------------*/
+/*--------------------------------General--------------------------------------*/
+em {
+  color: #FBC02D;
+}
+em:hover {
+  animation: color-change 2s;
+}
+
+p, article {
+  font-size: 14px;
+}
+
+span {
+  text-decoration: none;
+  border-bottom: 3px solid #FBC02D;
+}
+
+header {
+  display: block;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: lighter;
+  margin-top: 1.2em;
+  margin-bottom: 10%;
+}
+
+h4 {
+  text-align: left;
+}
+
+hr {
+  height: 1px;
+  border: 0px;
+  background-color: #FBC02D;
+  padding: 0px;
+  margin: -0.7em;
+  margin-bottom: 10px;
+}
+
+/*-----------------------------------*/
+/*----flex-container and item--------*/
+.flex_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex_container .flex-item {
+  justify-content: center;
+  max-height: stretch;
+}
+.flex_container #right-container .grid-box {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+  background-color: none;
+  width: 100%;
+  height: 15rem;
+}
+.flex_container #right-container .grid-box_2 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+  flex: 1 1 auto;
+  background-color: none;
+  width: 100%;
+  height: 25rem;
+}
+
+/*------------Experience field----------------*/
+#left-container {
+  flex: 0 0 40%;
+  border: 3px;
+  border-style: none;
+  background: #FBC02D;
+  flex-basis: 15%;
+  padding: 0px;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+#left-container img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  margin-bottom: 11%;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid #ff8c00b4;
+  min-width: 50%;
+}
+#left-container img:hover {
+  animation: bounce 0.5s ease-out;
+}
+#left-container h3 {
+  background: #2F4F4F;
+  color: #FFD600;
+  text-align: center;
+  font-weight: lighter;
+  padding: 5px;
+}
+#left-container .contact {
+  margin: 10%;
+}
+#left-container .contact:hover {
+  background-color: #FBC02D;
+  transform: scale(1.3);
+}
+#left-container .myInfo {
+  margin: 10%;
+  min-height: 36%;
+}
+#left-container .hobbyIcons {
+  margin: 10%;
+}
+#left-container i {
+  color: #2F4F4F;
+}
+
+/*----Grid for Education, Experience field----*/
+#right {
+  grid-column: 2/4;
+  grid-row: 1;
+}
+
+#right_2 {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+
+#right_3 {
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+
+#left {
+  grid-column: 1, 3;
+  grid-row: 1;
+}
+
+#left_2 {
+  grid-column: 1, 3;
+  grid-row: 2;
+}
+
+#left_3 {
+  grid-column: 1, 3;
+  grid-row: 3;
+}
+
+/*---------Reference field---------*/
+footer {
+  width: 100%;
+  margin: 0.5em auto;
+}
+
+.float_container {
+  float: left;
+  width: 43.5%;
+  margin: 5px 3.2%;
+  height: 70px;
+  overflow: hidden;
+}
+
+/*------------icon stack sizing----------*/
+.fa-stack {
+  font-size: 1.61em;
+  padding: 0%;
+}
+
+.fa-stack-1x {
+  font-size: 1.1em;
+}
+
+/*---------------------------------------*/
+/*----Flex item RIGHT container----------*/
+#right-container {
+  border: 3px;
+  border-style: none;
+  color: #000000;
+  min-width: 40%;
+  margin-left: 4%;
+}
+#right-container .fa {
+  color: #FBC02D;
+  padding-right: 40px;
+  font-size: 20px;
+}
+#right-container h3 {
+  margin-top: 0px;
+  margin-bottom: 0.6em;
+}
+#right-container .job_title h3 {
+  display: block;
+  margin-block-start: 5px;
+  margin-block-end: 5em;
+}
+
+li {
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0%;
+  margin-block-start: 0em;
+}
+ul li::before {
+  content: "•";
+  color: #FFD600;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/*---first boolet point in list---*/
+#left li::before {
+  content: "☉";
+}
+
+/*--------------------Keyframes----------------*/
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes color-change {
+  0% {
+    color: #FFD600;
+  }
+  50% {
+    color: #ff0000;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
