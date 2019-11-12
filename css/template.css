@@ -1,23 +1,29 @@
 .flex_box {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+  align-items: center;
 }
 .flex_box .item {
-  justify-content: flex-end;
-  height: 40%;
-  max-width: 35%;
+  width: 40%;
+  min-width: 25%;
+  align-content: left;
 }
-.flex_box .item #content {
-  width: 100px;
-  background-color: black;
-  color: white;
+
+#content, #content2, #content3 {
+  height: auto;
+  border: 1px solid #FBC02D;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 2px 10px #e68611b7;
+  margin-bottom: 20px;
 }
-.flex_box .item #header {
-  width: 100px;
-  background-color: blue;
-  color: yellow;
+#content:hover, #content2:hover, #content3:hover {
+  border: 1px solid grey;
+  box-shadow: 2px 10px #2F4F4F;
+}
+
+#header {
+  height: 150px;
 }
 
 /*# sourceMappingURL=template.css.map */

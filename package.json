@@ -7,7 +7,7 @@
     "sass": "sass --watch ./sass/main.scss:./css/style.css",
     "sass": "sass --watch ./sass/template.scss:./css/template.css"
   },
-  
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlbinaZakirova1804/AlbinaZakirova1804.github.io.git"
