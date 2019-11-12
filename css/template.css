@@ -1,0 +1,23 @@
+.flex_box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex_box .item {
+  justify-content: flex-end;
+  height: 40%;
+  max-width: 35%;
+}
+.flex_box .item #content {
+  width: 100px;
+  background-color: black;
+  color: white;
+}
+.flex_box .item #header {
+  width: 100px;
+  background-color: blue;
+  color: yellow;
+}
+
+/*# sourceMappingURL=template.css.map */

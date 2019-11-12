@@ -27,7 +27,7 @@ nav {
         float: left;
         font-size: 20px;
         text-decoration: none;
-        padding: 5px 20px;
+        padding: 5px 20px 5px 0px;
         &:hover {
             color: $dark-grey; 
             text-decoration: underline;
@@ -57,7 +57,7 @@ header {
 	font-family: monospace;
 	font-weight: lighter;
 	margin-top: 1.2em;
-	margin-bottom: 10%;
+	margin-bottom: 2%;
 }
 h4 {
 	text-align: left;
@@ -78,9 +78,9 @@ hr {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	.flex-item {
+	.flex-item { 
 		justify-content: center;
-        max-height: stretch;
+        height: stretch;
     }
      #right-container {
         .grid-box {
