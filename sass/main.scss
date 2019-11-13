@@ -192,6 +192,15 @@ hr {
     margin: 5px 3.2%;
     height: 70px;
     overflow: hidden;
+    &:hover {
+      border-radius: 50%;
+      border-style: solid;
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin: 10px;
+      border-color: $yellow1;
+    }
   }
   
 

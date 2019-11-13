@@ -192,6 +192,15 @@ footer {
   height: 70px;
   overflow: hidden;
 }
+.float_container:hover {
+  border-radius: 50%;
+  border-style: solid;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 10px;
+  border-color: #FFD600;
+}
 
 /*------------icon stack sizing----------*/
 .fa-stack {
