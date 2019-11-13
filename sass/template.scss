@@ -30,4 +30,14 @@ $grey2: #2F4F4F;
 
 
 
+@media  only screen and (max-width: 560px) {
+    #content, #content2, #content3 {
+        height: auto;
+        width: 80%;
+    }
+    nav {
+        display: block;
+        float: right;
+    }
+}
 
