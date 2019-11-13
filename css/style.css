@@ -137,7 +137,8 @@ hr {
 }
 #left-container .contact:hover {
   background-color: #FBC02D;
-  transform: scale(1.3);
+  animation: rotate 1s;
+  animation-timing-function: ease-in-out;
 }
 #left-container .myInfo {
   margin: 10%;
@@ -293,6 +294,14 @@ ul li::before {
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(-360deg);
   }
 }
 
