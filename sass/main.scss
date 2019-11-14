@@ -110,8 +110,8 @@ hr {
 	border: 3px;
 	border-style: none;
 	background: $orange1;
-	width: 15%;
-	padding: 0px;
+	max-width: 15%; 
+	padding: 0px; 
   font-size: 12px;
   height: stretch;
     word-wrap: break-word;

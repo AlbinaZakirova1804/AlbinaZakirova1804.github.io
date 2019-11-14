@@ -103,7 +103,7 @@ hr {
   border: 3px;
   border-style: none;
   background: #FBC02D;
-  width: 15%;
+  max-width: 15%;
   padding: 0px;
   font-size: 12px;
   height: stretch;
