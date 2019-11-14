@@ -140,7 +140,7 @@ hr {
 }
 #left-container .myInfo {
   margin: 10%;
-  min-height: 29%;
+  height: 29%;
 }
 #left-container .hobbyIcons {
   margin: 10%;
@@ -321,7 +321,7 @@ ul li::before {
     margin-bottom: 8px;
   }
   #left-container .myInfo {
-    height: 60%;
+    height: 18%;
   }
 }
 
