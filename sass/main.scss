@@ -107,10 +107,11 @@ hr {
 
 #left-container {
 	flex: 0 0 40%;
-	border: 3px;
+	border: 3px; 
 	border-style: none;
 	background: $orange1;
-	max-width: 20%; 
+  max-width: 25%; 
+  min-width: 20%;
 	padding: 0px; 
   font-size: 12px;
   height: stretch;

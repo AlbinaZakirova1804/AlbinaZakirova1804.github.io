@@ -104,6 +104,7 @@ hr {
   border-style: none;
   background: #FBC02D;
   max-width: 20%;
+  min-width: 20%;
   padding: 0px;
   font-size: 12px;
   height: stretch;
