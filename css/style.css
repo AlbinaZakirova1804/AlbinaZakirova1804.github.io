@@ -103,7 +103,7 @@ hr {
   border: 3px;
   border-style: none;
   background: #FBC02D;
-  max-width: 15%;
+  max-width: 20%;
   padding: 0px;
   font-size: 12px;
   height: stretch;
@@ -315,13 +315,6 @@ ul li::before {
 @media only screen and (max-width: 560px) {
   #left-container {
     min-width: 80%;
-  }
-  #left-container .contact {
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
-  #left-container .myInfo {
-    height: 18%;
   }
 }
 
