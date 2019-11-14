@@ -110,9 +110,10 @@ hr {
 	border: 3px;
 	border-style: none;
 	background: $orange1;
-	flex-basis: 15%;
+	width: 15%;
 	padding: 0px;
-	font-size: 12px;
+  font-size: 12px;
+  height: stretch;
     word-wrap: break-word;
         img {
             max-width: 100%;
@@ -317,11 +318,26 @@ hr {
 @keyframes rotate {
     from{
         transform: rotate(360deg); 
-    }
+    } 
     to{
         transform:  rotate(-360deg);
     }
 }
 
 
-  
+  /*adopt for mobile version*/
+  @media  only screen and (max-width: 560px) {
+    #left-container {
+      min-width: 80%;
+      .contact {
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+      .myInfo {
+        height: 60%;
+      
+      }
+
+                      
+    }
+  }

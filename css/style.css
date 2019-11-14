@@ -103,9 +103,10 @@ hr {
   border: 3px;
   border-style: none;
   background: #FBC02D;
-  flex-basis: 15%;
+  width: 15%;
   padding: 0px;
   font-size: 12px;
+  height: stretch;
   word-wrap: break-word;
 }
 #left-container img {
@@ -308,6 +309,19 @@ ul li::before {
   }
   to {
     transform: rotate(-360deg);
+  }
+}
+/*adopt for mobile version*/
+@media only screen and (max-width: 560px) {
+  #left-container {
+    min-width: 80%;
+  }
+  #left-container .contact {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  #left-container .myInfo {
+    height: 60%;
   }
 }
 

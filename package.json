@@ -4,7 +4,7 @@
   "description": "ResumeProject2",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/template.scss:./css/template.css"
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
   },
 
   "repository": {
