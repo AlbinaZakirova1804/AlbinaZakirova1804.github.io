@@ -28,12 +28,10 @@ $grey2: #2F4F4F;
     height: 150px;
 }
 
-
-
-@media  only screen and (max-width: 560px) {
+@media  only screen and (min-width: 560px) {
     #content, #content2, #content3 {
-        height: auto;
-        width: 80%;
+        height: auto; 
+        width: 80%; 
     }
     nav {
         display: block;

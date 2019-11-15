@@ -4,7 +4,8 @@
   "description": "ResumeProject2",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+    "sassmain": "sass --watch ./sass/main.scss:./css/style.css"
+  
   },
 
   "repository": {
@@ -12,7 +13,7 @@
     "url": "git+https://github.com/AlbinaZakirova1804/AlbinaZakirova1804.github.io.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "ISC", 
   "bugs": {
     "url": "https://github.com/AlbinaZakirova1804/AlbinaZakirova1804.github.io/issues"
   },

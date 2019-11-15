@@ -77,7 +77,7 @@ hr {
 }
 .flex_container .flex-item {
   justify-content: center;
-  height: stretch;
+  /*height: stretch;*/
 }
 .flex_container #right-container .grid-box {
   display: grid;
@@ -99,19 +99,16 @@ hr {
 
 /*------------Experience field----------------*/
 #left-container {
-  flex: 0 0 40%;
+  flex: 0 0 13%;
   border: 3px;
   border-style: none;
   background: #FBC02D;
-  max-width: 30%;
-  min-width: 25%;
   padding: 0px;
   font-size: 12px;
-  height: stretch;
   word-wrap: break-word;
 }
 #left-container img {
-  max-width: 100%;
+  width: 110px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15%;
@@ -119,7 +116,7 @@ hr {
   display: block;
   border-radius: 50%;
   border: 2px solid #ff8c00b4;
-  min-width: 50%;
+  height: 110px;
 }
 #left-container img:hover {
   animation: bounce 0.5s ease-out;
@@ -130,9 +127,11 @@ hr {
   text-align: center;
   font-weight: lighter;
   padding: 5px;
+  margin: 0%;
 }
 #left-container .contact {
-  margin: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 #left-container .contact:hover {
   background-color: #FBC02D;
@@ -140,7 +139,10 @@ hr {
   animation-timing-function: ease-in-out;
 }
 #left-container .myInfo {
-  margin: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   height: auto;
 }
 #left-container .hobbyIcons {
@@ -200,7 +202,7 @@ footer {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin: 10px;
+  margin: 0px;
   border-color: #FFD600;
 }
 
@@ -315,7 +317,10 @@ ul li::before {
 /*adopt for mobile version*/
 @media only screen and (max-width: 560px) {
   #left-container {
-    min-width: 80%;
+    flex-basis: 80%;
+  }
+  #left-container p {
+    margin-bottom: 0.5em;
   }
 }
 
