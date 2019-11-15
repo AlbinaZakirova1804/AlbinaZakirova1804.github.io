@@ -107,7 +107,7 @@ hr {
 /*------------Experience field----------------*/
 
 #left-container {
-	flex: 0 0 18%; 
+	flex: 0 0 13%; 
 	border: 3px;
 	border-style: none;
 	background: $orange1;
@@ -146,10 +146,10 @@ hr {
             }   
         } 
         .myInfo {
-            padding-left: 10%;
+            padding-left: 10%; 
             padding-right: 10%;
-            padding-top: 5px;
-            padding-bottom: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
             height: auto;
         }
         .hobbyIcons{
@@ -334,6 +334,9 @@ hr {
     #left-container {
          
         flex-basis: 80%;
+        p {
+          margin-bottom: 0.5em;
+        }
     }
     
 }
