@@ -11,6 +11,7 @@
 
 #content, #content2, #content3 {
   height: auto;
+  width: 40%;
   border: 1px solid #FBC02D;
   padding: 10px;
   border-radius: 25px;
@@ -26,7 +27,7 @@
   height: 150px;
 }
 
-@media only screen and (min-width: 560px) {
+@media only screen and (max-width: 560px) {
   #content, #content2, #content3 {
     height: auto;
     width: 80%;
