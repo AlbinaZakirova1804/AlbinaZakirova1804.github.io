@@ -80,7 +80,7 @@ hr {
 	justify-content: center;
 	.flex-item { 
 		justify-content: center;
-        height: stretch;
+    height: stretch;
     }
      #right-container {
         .grid-box {
@@ -106,16 +106,13 @@ hr {
 /*------------Experience field----------------*/
 
 #left-container {
-	flex: 0 0 40%;
-	border: 3px; 
+	flex: 0 0 18%;
+	border: 3px;
 	border-style: none;
 	background: $orange1;
-  max-width: 30%; 
-  min-width: 20%;
-	padding: 0px; 
-  font-size: 12px;
-  height: stretch;
-    word-wrap: break-word;
+	padding: 0px;
+	font-size: 12px;
+  word-wrap: break-word;
         img {
             max-width: 100%;
             margin-left: auto;
@@ -147,7 +144,7 @@ hr {
         } 
         .myInfo {
             margin: 10%;
-            height:auto;
+            height: 36%;
         }
         .hobbyIcons{
             margin: 10%;
@@ -319,19 +316,18 @@ hr {
 @keyframes rotate {
     from{
         transform: rotate(360deg); 
-    } 
+    }
     to{
         transform:  rotate(-360deg);
     }
 }
 
-
   /*adopt for mobile version*/
+  
   @media  only screen and (max-width: 560px) {
     #left-container {
-      min-width: 80%;
-      
-
-                      
+         
+        flex-basis: 80%;
     }
-  }
+    
+}

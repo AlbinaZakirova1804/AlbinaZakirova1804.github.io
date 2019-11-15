@@ -99,15 +99,12 @@ hr {
 
 /*------------Experience field----------------*/
 #left-container {
-  flex: 0 0 40%;
+  flex: 0 0 18%;
   border: 3px;
   border-style: none;
   background: #FBC02D;
-  max-width: 30%;
-  min-width: 20%;
   padding: 0px;
   font-size: 12px;
-  height: stretch;
   word-wrap: break-word;
 }
 #left-container img {
@@ -141,7 +138,7 @@ hr {
 }
 #left-container .myInfo {
   margin: 10%;
-  height: auto;
+  height: 36%;
 }
 #left-container .hobbyIcons {
   margin: 10%;
@@ -315,7 +312,7 @@ ul li::before {
 /*adopt for mobile version*/
 @media only screen and (max-width: 560px) {
   #left-container {
-    min-width: 80%;
+    flex-basis: 80%;
   }
 }
 
