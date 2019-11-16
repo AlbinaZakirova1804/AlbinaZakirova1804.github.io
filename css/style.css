@@ -317,7 +317,7 @@ ul li::before {
 /*adopt for mobile version*/
 @media only screen and (max-width: 560px) {
   #left-container {
-    flex-basis: 80%;
+    flex-basis: 90%;
   }
   #left-container p {
     margin-bottom: 0.5em;
