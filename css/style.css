@@ -315,12 +315,25 @@ ul li::before {
   }
 }
 /*adopt for mobile version*/
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 547px) {
   #left-container {
-    flex-basis: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
   }
   #left-container p {
     margin-bottom: 0.5em;
+  }
+  #left-container h3 {
+    background-image: linear-gradient(to left, #2F4F4F, #FFD600);
+  }
+
+  #aside_left {
+    width: 40%;
+  }
+
+  #aside_right {
+    width: 60%;
   }
 }
 
