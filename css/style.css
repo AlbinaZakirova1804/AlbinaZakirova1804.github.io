@@ -321,9 +321,11 @@ ul li::before {
     flex-wrap: wrap;
     flex-basis: 100%;
   }
+
   #left-container p {
     margin-bottom: 0.5em;
   }
+
   #left-container h3 {
     background-image: linear-gradient(to left, #2F4F4F, #FFD600);
   }
